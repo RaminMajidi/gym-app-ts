@@ -2,10 +2,10 @@ import { SelectedPage } from "@/shared/type";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import {motion} from "framer-motion"
 
-const childVariant ={
-    hideen:{opacity:0 , scale:0.8},
-    visible:{opacity:1 , scale:1}
-}
+const childVariant = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { opacity: 1, scale: 1 },
+  };
 
 
 type Props = {
