@@ -4,7 +4,6 @@ const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {
-    console.log(query);
     const media = window.matchMedia(query);
     if (media.matches !== matches) {
       setMatches(media.matches);
