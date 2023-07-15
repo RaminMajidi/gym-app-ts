@@ -47,7 +47,7 @@ const classes: Array<ClassType> = [
 
 
 type Props = {
-    setSelectedPage: (value: SelectedPage) => void
+    setSelectedPage: (value: SelectedPage) => void;
 }
 
 const OurClasses = ({ setSelectedPage }: Props) => {
@@ -89,9 +89,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
                         ))}
                     </ul>
                 </div>
-
             </motion.div>
-
         </section>
     )
 }
