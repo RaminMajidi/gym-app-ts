@@ -1,7 +1,6 @@
 Link to watch : https://gym-app-ts.pages.dev/
 # gym-app-ts
 This web application is made using TypeScript language and in React JS environment. This web application is suitable for introducing your services in the field of sports.
-Link to watch : https://multicalendar.netlify.app/
 
 # Programmer
  Ramin Majidi
